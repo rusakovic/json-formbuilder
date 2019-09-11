@@ -6,10 +6,10 @@ import './App.css';
 import 'react-tabs/style/react-tabs.css';
 
 
-
+// parse JSON file to JS object
 const obj = JSON.stringify(JSONdata, null, 4);
-
 const newObj = JSON.parse(obj)
+
 class App extends Component {
   constructor(props) {
     super(props);
