@@ -15,3 +15,12 @@
   align-items: center;
   margin: 0 20px 0 20px;
 }
+
+.buttons {
+  display: inline;
+  margin-top: 10px;
+}
+
+.input-form {
+  width: 50%;
+}

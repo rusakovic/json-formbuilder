@@ -5,10 +5,11 @@ import Textarea from './fields/textarea.component';
 import Checkbox from './fields/checkbox.component';
 import Radiobutton from './fields/radiobutton.component';
 import Date from './fields/date.component';
+import Button from './fields/button.component';
 
 
 const Result = (props) => {
-    const { form, label, value, checked, values  } = props
+    const { form, label, value, checked, values, name  } = props
 	switch (form) {
 		case "numberfield":
             return <Numberfield label={label} value={value} />
@@ -22,6 +23,8 @@ const Result = (props) => {
             return <Radiobutton label={label} values={values} />
 		case "date":
             return <Date label={label} />
+		case "button":
+			return <Button  name={name} />  
 
 		default:
 			return <h6>Please, check the JSON input</h6>;

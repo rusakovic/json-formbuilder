@@ -8,12 +8,12 @@
     {
       "form": "textfield",
       "label": "Text field:",
-      "value": "abcd"
+      "value": "Good morning!"
     },
     {
       "form": "textarea",
       "label": "Text area:",
-      "value": "sdfs lj owef wfgsdgadgeoj wefgwogdsdf [joj"
+      "value": "Unlike the lifecycle methods above (which React calls for you), the methods below are the methods you can call from your components."
     },
     {
       "form": "checkbox",
@@ -30,6 +30,14 @@
       "form": "date",
       "label": "Date:",
       "name": "date"
+    },
+    {
+      "form": "button",
+      "name": "Apply"
+    },
+    {
+      "form": "button",
+      "name": "Cancel"
     }
 
   ]

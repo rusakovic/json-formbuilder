@@ -6,35 +6,37 @@ import './App.css';
 import 'react-tabs/style/react-tabs.css';
 
 
-const obj = JSON.stringify(JSONdata);
-console.log(obj)
+
+const obj = JSON.stringify(JSONdata, null, 4);
 
 const newObj = JSON.parse(obj)
-console.log(newObj)
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      json: newObj.types
+      json: newObj.types,
+      text: obj
     }
     this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+
   }
 
 
   handleChange(event) {
-    let obj = JSON.parse(event.target.value)
-    console.log(obj.types)
-    this.setState( {json: obj.types }  );
+
+    this.setState({ text: event.target.value  });
+
   }
 
   handleSubmit(event) {
-    this.setState({ json: event.target.value });
-    console.log(this.state.json);
+    event.preventDefault();
+    let obj = JSON.parse(this.state.text)
+    this.setState( {json: obj.types}  );
   }
 
   render() {
     const { json } = this.state;
-    console.log(json)
     return (
       <div className="App">
         <Tabs>
@@ -45,17 +47,18 @@ class App extends Component {
           <TabPanel>
             <form className='form'>
               {
-                json.map((el) => (
-                  <Result key={el.form} {...el} />
+                json.map((el, idx) => (
+                  <Result key={idx+el.form} {...el} />
                 ))
               }
             </form>
           </TabPanel>
           <TabPanel>
             <div>
-              <form onSubmit={this.handleSubmit}>
-                <textarea value={this.state.value} onChange={this.handleChange} />
-                {/* <input type="submit" value="Submit" /> */}
+              <form  onSubmit={this.handleSubmit}>
+                <textarea cols="50" rows="20" value={this.state.text} onChange={this.handleChange} />
+                <br />
+                <input type="submit" value="Submit" />
               </form>
             </div>
           </TabPanel>
