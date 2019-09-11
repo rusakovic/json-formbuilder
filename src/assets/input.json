@@ -1,0 +1,36 @@
+{
+  "types": [
+    {
+      "form": "numberfield",
+      "label": "Enter your number:",
+      "value": "25"
+    },
+    {
+      "form": "textfield",
+      "label": "Text field:",
+      "value": "abcd"
+    },
+    {
+      "form": "textarea",
+      "label": "Text area:",
+      "value": "sdfs lj owef wfgsdgadgeoj wefgwogdsdf [joj"
+    },
+    {
+      "form": "checkbox",
+      "label": "Checkbox:",
+      "checked": "true"
+    },
+    {
+      "form": "radio",
+      "label": "Choose gender:",
+      "name": "gender",
+      "values": ["male", "female", "other"]
+    },
+    {
+      "form": "date",
+      "label": "Date:",
+      "name": "date"
+    }
+
+  ]
+}
