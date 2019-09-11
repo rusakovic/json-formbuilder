@@ -9,7 +9,6 @@ import Date from './fields/date.component';
 
 const Result = (props) => {
     const { form, label, value, checked, values  } = props
-	console.log(props.form);
 	switch (form) {
 		case "numberfield":
             return <Numberfield label={label} value={value} />

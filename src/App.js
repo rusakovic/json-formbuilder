@@ -7,6 +7,8 @@ import 'react-tabs/style/react-tabs.css';
 
 
 const obj = JSON.stringify(JSONdata);
+console.log(obj)
+
 const newObj = JSON.parse(obj)
 console.log(newObj)
 class App extends Component {
@@ -20,7 +22,9 @@ class App extends Component {
 
 
   handleChange(event) {
-    this.setState({ json: event.target.value });
+    let obj = JSON.parse(event.target.value)
+    console.log(obj.types)
+    this.setState( {json: obj.types }  );
   }
 
   handleSubmit(event) {
