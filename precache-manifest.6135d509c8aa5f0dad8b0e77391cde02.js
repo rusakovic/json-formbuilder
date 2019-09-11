@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cf0ed4dc7c312967022ee86f39ac9fe3",
+    "revision": "12b0a589e61f086e490242f1ff34e2dd",
     "url": "/json-formbuilder/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/json-formbuilder/static/css/2.5c17b9f1.chunk.css"
   },
   {
-    "revision": "a2884edc6b753c94ddc7",
-    "url": "/json-formbuilder/static/css/main.0c39781e.chunk.css"
+    "revision": "c8ffff36459af32f6a27",
+    "url": "/json-formbuilder/static/css/main.c83fd186.chunk.css"
   },
   {
     "revision": "ad6ec5a2aee4dd5f5edd",
     "url": "/json-formbuilder/static/js/2.cf8ef430.chunk.js"
   },
   {
-    "revision": "a2884edc6b753c94ddc7",
+    "revision": "c8ffff36459af32f6a27",
     "url": "/json-formbuilder/static/js/main.8d04fa8b.chunk.js"
   },
   {

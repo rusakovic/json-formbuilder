@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/json-formbuilder/static/css/main.0c39781e.chunk.css",
+    "main.css": "/json-formbuilder/static/css/main.c83fd186.chunk.css",
     "main.js": "/json-formbuilder/static/js/main.8d04fa8b.chunk.js",
     "main.js.map": "/json-formbuilder/static/js/main.8d04fa8b.chunk.js.map",
     "runtime~main.js": "/json-formbuilder/static/js/runtime~main.43d20c48.js",
@@ -9,9 +9,9 @@
     "static/js/2.cf8ef430.chunk.js": "/json-formbuilder/static/js/2.cf8ef430.chunk.js",
     "static/js/2.cf8ef430.chunk.js.map": "/json-formbuilder/static/js/2.cf8ef430.chunk.js.map",
     "index.html": "/json-formbuilder/index.html",
-    "precache-manifest.5e4776c244b235f7ec3a96241e4f576e.js": "/json-formbuilder/precache-manifest.5e4776c244b235f7ec3a96241e4f576e.js",
+    "precache-manifest.6135d509c8aa5f0dad8b0e77391cde02.js": "/json-formbuilder/precache-manifest.6135d509c8aa5f0dad8b0e77391cde02.js",
     "service-worker.js": "/json-formbuilder/service-worker.js",
     "static/css/2.5c17b9f1.chunk.css.map": "/json-formbuilder/static/css/2.5c17b9f1.chunk.css.map",
-    "static/css/main.0c39781e.chunk.css.map": "/json-formbuilder/static/css/main.0c39781e.chunk.css.map"
+    "static/css/main.c83fd186.chunk.css.map": "/json-formbuilder/static/css/main.c83fd186.chunk.css.map"
   }
 }
